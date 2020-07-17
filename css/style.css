@@ -228,14 +228,67 @@ h6 {
 }
 
 /** member **/
+.member-area{}
+.single-member-item{}
+.member-thumb{
+	position: relative;
+}
+.member-thumb img{
+	max-width: 100%;
+	width: 100%;
+}
+.member-thumb:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	background: #000;
+	opacity: .8;
+}
+.member-overlay {
+	padding: 0 44px;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+}
+.member-overlay p {
+	color: #ebebeb;
+	font-size: 14px;
+	line-height: 26px;
+	margin-bottom: 24px;
+}
+.member-overlay .social-profiles{}
+.member-overlay .social-profiles ul{}
+.member-overlay .social-profiles ul li {
+	display: inline;
+	margin: 0 3px;
+}
+.member-overlay .social-profiles ul li a {
+	background: #fff;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	font-size: 15px;
+	border-radius: 50%;
+	color: #010101;
+}
+.member-overlay .social-profiles ul li a:hover{
+	background-color: #F26957;
+	color: #fff;
+}
+.member-info{}
 .member-info h3 {
-  font-size: 22px;
-  color: #222222;
-  text-transform: capitalize;
-  font-weight: 400;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #222222;
+	margin-top: 25px;
 }
 .member-info span {
-  color: #222222;
-  font-size: 14px;
-  text-transform: capitalize;
+	text-transform: capitalize;
 }
+
+
